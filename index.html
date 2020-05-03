@@ -1,196 +1,324 @@
 <!DOCTYPE html>
-<html lang="en">
-<!-- HEAD ELEMENT -->
-<!--
-So, basically if you are reading this is because you want to see my code. I understand, see, I'm not a pro yet, YET, but I'm working really hard to be one. If you find any errors, typos and that kind of amateur thing, sorry, I'm still learning.
-
-Feel free to use the code below as base of your project, no strings attached, if you need any help with your project, let me know, I might be able to help.
-
-My contact information is there in the site, but you can always use:
-
-E-mail: c.chostak@gmail.com
-Phone: +351 913 478 488
-<--
+<html>
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	
-<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
-      
-	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet"> 
-	
-<!-- REMEMBER TO ALTER THIS TO THE PATH OF CSS FILE -->	
-	<link rel="stylesheet" type="text/css" href="main.css">
-	
-<!-- REMEMBER TO ALTER THIS TO THE PATH OF JS FILE -->		
-	<script src="main.js"></script>
-
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chostak</title>
+  <meta name="description" content="Christian Chostak personal website.">
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+  <link rel="stylesheet" href="all.css">
+  <link rel="canonical" href="chrissychostak.com/">
+  <link rel="alternate" type="application/rss+xml" title="chrissychostak.com" href="/chrissychostak.com/feed.xml">
+  <link rel="shortcut icon" type="image/png" href="./favicon/favicon-32x32.png"/>
 </head>
 
-<!-- BODY ELEMENT -->
-
-<body class="container container-fluid">
-
-	<div id="header" class="well">
-	
-		<div id="title">
-			<h1>_Christian Chostak
-			</h1>
-			<h6>_Web - Cloud - IT - Network - Linux - A common guy.
-			</h6>
-		</div>
-	
-		<div id="buttons" class="btn-group-justified">
-			<a class="btn btn-default" href="https://www.facebook.com/profile.php?id=100014699834799&ref=bookmarks" target="_blank"><span class="glyphicon glyphicon-thumbs-up"></span> Facebook</a>
-			<a class="btn btn-default" href="https://www.linkedin.com/in/christian-chostak-442476b4/" target="_blank"><span class="glyphicon glyphicon-education"></span> LinkedIn</a>
-			<a class="btn btn-default" href="https://www.freecodecamp.org/cchostak" target="_blank"><span class=" 	glyphicon glyphicon-knight"></span> freeCodeCamp</a>
-      
-			<a class="btn btn-default" href="#textaboutme"><span class="glyphicon glyphicon-bullhorn"></span> About me!</a>
-      
-			<a class="btn btn-default" href="#gallerystart"><span class="glyphicon glyphicon-wrench"></span> Things that I did!</a>
-      
-			<a class="btn btn-default" href="https://s3.amazonaws.com/christianchostak/Christian+Chostak+-+PT.pdf"><span class="glyphicon glyphicon-list-alt"></span> Resume(Pt)</a>
-			<a class="btn btn-default" href="mailto:c.chostak@gmail.com"><span class="glyphicon glyphicon-piggy-bank"></span> Hire me</a>
-		</div>
-		
-    </div>
-	
-    <div id="about" class="well container container-fluid">
-	
-<!-- INTRO ELEMENT -->
-<!-- I SHOULD MAKE A HUGE IMPRESSION HERE, OR AT LEAST TRY -->
-
-		<div id="alilaboutme" class="">
-			<h1>Trust me, I'm real</h1>
-			<hr>
-			<p>
-			Portugues\\<br>Sou aficionado por tudo que ha dentro de tecnologia e marketing. O que mais me cativa e entregar uma solucao que funcione para os outros, e que eles sintam-se felizes com o resultado. Tenho um grande background em ambientes virtualizados, linux e redes, consigo gerenciar e trabalhar em equipe de maneira natural e eficiente. Compreendo responsabilidades e procuro sempre alinhar a visao da instituicao com o meu servico. Pretendo me aperfeicoar cada vez mais em minha carreira, adoro aprender e estou constantemente em movimento.
-			</p>     
-			<br>
-			<p>      
-			English\\<br>I am fond of everything there is in technology and marketing. What captivates me most is delivering a solution that works for others, and that they feel happy about the outcome. I have a great background in virtualized environments, linux and networks, I manage and work as a team in a natural and efficient way. I understand responsibilities and always try to align the vision of the institution with my service. I want to get better and better in my career, I love learning and I'm constantly on the move.
-			</p>
-			<hr>
-		</div>
-	  
-		<div id="whereitscrolls" class="">
-			<div id="pictureofme" class="col-sm-4">
-				<img src="https://s3.amazonaws.com/christianchostak/Sem+t%C3%ADtulo.png" alt="Ooops! It was supposed to show a picture of me in some sort of Tuxedo!" id =	"picture" class="">
-			</div>
-        
-			<div id="textaboutme" class="well col-sm-8">
-			
-				<h1>About</h1>
-				<h6>my skills (resumed)</h6>
-				<ol>
-				<li>I can create Linux Servers (CentOS);</li>
-				<li>Then, I can make those Linux Servers do something, like, they can evolve and become DNS Servers, DHCP servers, File Servers, Lan Routers, Web Servers, etc;</li>
-				<li>I can create Windows Servers;</li>
-				<li>Then, I can make those Windows Servers do something, like, they can evolve and become DNS Servers, DHCP servers, File Servers, Lan Routers, Web Servers, etc;</li>
-				<li>I can make the servers above be contained in some sort of virtualization magic, they call that kind of magic in our world as VMWare;</li>
-				<li>If you do not like magic I will understand, so i raise you my most wild card! Are you ready? How about the servers I mentioned above be inside the Cloud? Yep, I can do that either. By the way, using AWS Amazon.</li>
-				<li>Nevertheless, I'm able to create local networks using Cisco Routers and Switches. Inside those Lans will be VLAN's, QOS'ses and everything necessary to make it work flawlessly;</li>
-				<li>Although I enjoy infraestructure and support, I am a fond of Coding in my free time, in that matter I do use C++ (QTCreator) and HTML5, CSS, Javascript.</li>
-				<li>The best answer for everything is the answer that accomplishes the problem with the most cost-effective tool. That's why I use OpenSource technologies in everything, and by that I mean: Zabbix for monitoring assets, GLPI for automate help-desk, Humhub to create social networks private or not, Bacula to automate Backups and so on.</li>
-				<li>For the things I do, the tools I use: Photoshop, Corel Draw, Lenovo computers, AWS cloud, Pictures taken from all over the internet, pens from Crown, Apple gadgets, Qt Creator, Putty, Postman, Brackets, CentOS, all sorts of Linux flavors, Git, Astah, Office, and an unbelievable amount of coffe, trust me, it's unbelievable.</li>
-				<li>But although I try to be a good professional, I do have family, I'm a father of two beatiful girls, me and my spouse named them Kauana and Isabela. And despite the fact that I'm bald, I really enjoy my file. What I do, I do for them. The mantra that keeps me motivated is: "Ever tried. Ever Failed. No matter. Try again. Fail again. Fail better."</li>
-				</ol>
-			</div>
-                
-		</div>
-      
-    </div>
-	
-    <div id="gallerystart" class="container well">
-      
-		<div id="header">
-			<h5>Things that I DO!</h5>
-		</div>
-      
-		<div class="gallery">
-			<a target="_blank" href="https://lh3.googleusercontent.com/-l-fjyS9PatQ/VMotPpfKTXI/AAAAAAAAG3c/j7Kxb4rS4EI/s912/humhub_ripfac_main.jpg">
-			<img src="https://lh3.googleusercontent.com/-l-fjyS9PatQ/VMotPpfKTXI/AAAAAAAAG3c/j7Kxb4rS4EI/s912/humhub_ripfac_main.jpg" alt="HumHub" width="300" height="200">
-			</a>
-			<div class="desc">HumHub Social Network</div>
-		</div>
-
-		<div class="gallery">
-			<a target="_blank" href="http://3.bp.blogspot.com/-PNc-FcSly9w/VJHQj2-EnAI/AAAAAAAAIt4/2h9dv9bevUo/s1600/GLPI%2B-%2BDashboard%2BAtual.png">
-			<img src="http://3.bp.blogspot.com/-PNc-FcSly9w/VJHQj2-EnAI/AAAAAAAAIt4/2h9dv9bevUo/s1600/GLPI%2B-%2BDashboard%2BAtual.png" alt="GLPI" width="298" height="200">
-			</a>
-			<div class="desc">GLPI Dashboard</div>
-		</div>
-
-		<div class="gallery">
-			<a target="_blank" href="https://ga0.imgix.net/screenshot/o/91177-1408696680-003011?ixlib=rb-1.0.0&ch=Width%2CDPR&auto=format">
-			<img src="https://ga0.imgix.net/screenshot/o/91177-1408696680-003011?ixlib=rb-1.0.0&ch=Width%2CDPR&auto=format" alt="Zabbix" width="300" height="200">
-			</a>
-			<div class="desc">Zabbix Dashboard</div>
-		</div>
-
-		<div class="gallery">
-			<a target="_blank" href="http://images.e2logy.com/images/expertise/aws-cloud-set-up.jpg">
-			<img src="http://images.e2logy.com/images/expertise/aws-cloud-set-up.jpg" alt="AWS Cloud" width="300" height="200">
-			</a>
-			<div class="desc">AWS Cloud</div>
-		</div>
-      
-		<div class="gallery">
-			<a target="_blank" href="https://production-assets.codepen.io/assets/home/projects-screenshot-467e7f59383af0f15a7800660f84cf9544837140d29f8f6336099799dd32afd7.png">
-			<img src="https://production-assets.codepen.io/assets/home/projects-screenshot-467e7f59383af0f15a7800660f84cf9544837140d29f8f6336099799dd32afd7.png" alt="CodePen" width="300" height="200">
-			</a>
-			<div class="desc">HTML5 | CSS | JavaScript</div>
-		</div>
-      
-		<div class="gallery">
-			<a target="_blank" href="https://www.cisco.com/c/dam/en/us/td/i/100001-200000/130001-140000/135001-136000/135929.tif/_jcr_content/renditions/135929.jpg">
-			<img src="https://www.cisco.com/c/dam/en/us/td/i/100001-200000/130001-140000/135001-136000/135929.tif/_jcr_content/renditions/135929.jpg" alt="Network Configuration - Cisco iOS" width="300" height="200">
-			</a>
-			<div class="desc">Network Configuration - Cisco iOS</div>
-		</div>
-      
-		<div class="gallery">
-			<a target="_blank" href="https://cdn3.digitalartsonline.co.uk/cmsdata/slideshow/3599100/select-mask.jpg">
-			<img src="https://cdn3.digitalartsonline.co.uk/cmsdata/slideshow/3599100/select-mask.jpg" alt="Graphic Design" width="300" height="200">
-			</a>
-			<div class="desc">Graphic Design</div>
-		</div>
-      
-		<div class="gallery">
-			<a target="_blank" href="http://superstorm.com.br/wp-content/uploads/2016/03/17-vezes-que-voce-caiu-uma-estrategia-de-marketing.jpg">
-			<img src="http://superstorm.com.br/wp-content/uploads/2016/03/17-vezes-que-voce-caiu-uma-estrategia-de-marketing.jpg" alt="Marketing Strategy" width="300" height="200">
-			</a>
-			<div class="desc">Marketing Strategy</div>
-		</div>
-      
-		<div class="gallery">
-			<a target="_blank" href="https://previews.123rf.com/images/ragsac/ragsac1108/ragsac110800031/10421964-Cost-reduction-abstract-sketch-with-pencil-and-business-cutout--Stock-Photo.jpg">
-			<img src="https://previews.123rf.com/images/ragsac/ragsac1108/ragsac110800031/10421964-Cost-reduction-abstract-sketch-with-pencil-and-business-cutout--Stock-Photo.jpg" alt="Business Consultant" width="300" height="200">
-			</a>
-			<div class="desc">Business Consultant</div>
-		</div>
+<body>
+  <header class="site-header">
+  </header>
+  <div class="page-content">
+    <div class="page-content-container">
+      <div class="home">
+        <!-- 
+            MENU SECTION 
             
+            
+            
+            -->
+        <section class="menu-section ">
+          <div class="menu-section-container">
+            <div class="menu-section-container-hamburger">
+              <div class="menu-section-hamburger">
+                <div id="nav-toggle" href="#"><span></span></div>
+              </div>
+            </div>
+            <nav class="menu-section-container-nav bigger h2-like">
+              <div class="nav-item menu-nav-item" data-target="explanation-section"><strong>Trust me, I'm real</strong>
+              </div>
+              <div class="nav-item menu-nav-item" data-target="book-section"><strong>Writer enthusiast</strong></div>
+              <div class="nav-item menu-nav-item" data-target="howitworks-section"><strong>About</strong></div>
+              <div class="nav-item menu-nav-item" data-target="features-section"><strong>Things that I did!</strong>
+              </div>
+              <div class="nav-item menu-nav-item" data-target="contact-section"><strong>Contact Me</strong></div>
+            </nav>
+          </div>
+        </section>
+        <!-- 
+            HERO SECTION 
+            
+            
+            
+            -->
+        <section class="hero-section ">
+          <div class="wrapper w960p flex-container flex-container-v">
+            <h1 class="xlbiggest flex-item-center txtcenter">Christian Chostak</h1>
+            <p class="biggest flex-item-center h2-like txtcenter">DevOps</p>
+            <p class="biggest flex-item-center h2-like txtcenter">Writer, Father</p>
+            <p class="biggest flex-item-center h2-like txtcenter">Unconditional learner</p>
+            <p class="biggest flex-item-center h2-like txtcenter"></p>
+            <div class="flex-item-center">
+              <div class="mtxl w150p"></div>
+              <button class="button-primary txtcenter main-cta"
+                onclick="$.scrollTo('.contact-section', {duration:500})">Contact me</button>
+              <div class="txtcenter mtm cpointer secondary-cta">
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- 
+            Trust me, I'm real 
+            
+            
+            
+            -->
+        <section class="explanation-section mtxlp ">
+          <div class="wrapper w960p flex-container flex-container-v">
+            <div class="separator w10"></div>
+            <h1 class="xbiggest flex-item-center txtcenter mtxl">Trust me, I'm real</h1>
+            <p class="flex-item-center h3-like txtcenter mts"> <strong>I am fond of everything there is in technology
+                and marketing. What captivates me most is delivering a solution that works for others, and that they
+                feel happy about the outcome. I have a great background in virtualized environments, linux and networks,
+                I manage and work as a team in a natural and efficient way. </strong></p>
+            <p class="flex-item-center h3-like txtcenter mts"> I want to get better and better in my career, I love
+              learning and I'm constantly on the move. </p>
+            <div class="flex-item-center">
+              <a class=" button flex-item-left mtxl" taget="_blank"
+                href="https://www.linkedin.com/in/christian-chostak-442476b4/"> My Linkedin</a>
+              <a class=" button flex-item-right mtxl" taget="_blank" href="https://github.com/cchostak/"> My Github</a>
+            </div>
+          </div>
+        </section>
+        <!-- 
+            Book
+            
+            
+            
+            -->
+        <section class="book-section mtxlp ">
+          <div class="wrapper w960p flex-container flex-container-v">
+            <div class="separator w10"></div>
+            <h1 class="xbiggest flex-item-center txtcenter mtxl">I'm a writer enthusiast</h1>
+            <p class="flex-item-center h3-like txtcenter mts"> <strong>Also, if you want to check my book, you can buy
+                at Amazon.</strong> And sorry, but at the moment it is available only in Portuguese.</p>
+            <p class="flex-item-center h3-like txtcenter mts"> </p>
+            <p class="flex-item-center h3-like txtcenter mts"> If you can't buy it, that's ok, you can read it entirely,
+              freely. At the end, you could send me a thumbs up saying if you at least enjoyed.</p>
+            <p class="flex-item-center h3-like txtcenter mts"> </p>
+            <p class="flex-item-center h3-like txtcenter mts"> It's a mixture of styles, placed on a cyberpunk world.
+              The main idea was to demonstrate how one person can be different throughout life based on their choices.
+            </p>
+            <p class="flex-item-center h3-like txtcenter mts"> </p>
+            <p class="flex-item-center h3-like txtcenter mts"> </p>
+            <p class="flex-item-center h3-like txtcenter mts"> </p>
+            <p class="flex-item-center h3-like txtcenter mts"> </p>
+            <p class="flex-item-center h3-like txtcenter mts"> </p>
+            <p class="flex-item-center h3-like txtcenter mts"> </p>
+            <p class="flex-item-center h3-like txtcenter mts"> </p>
+            <p class="flex-item-center h3-like txtcenter mts"> </p>
+            <p class="flex-item-center h3-like txtcenter mts"> </p>
+
+            <div class="flex-item-center">
+              <a class=" button flex-item-left mtxl" taget="_blank"
+                href="https://www.amazon.com.br/In%C3%ADcio-Fim-Valor-Vida-Livro-ebook/dp/B01NBDBFE8/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=christian+chostak&qid=1588520497&sr=8-1">
+                Os sete Selos</a>
+              <a class=" button flex-item-right mtxl" taget="_blank" href="book.pdf"> Download it</a>
+            </div>
+          </div>
+        </section>
+        <!-- 
+            HOWITWORKS SECTION 
+            
+            
+            
+            -->
+        <section class="howitworks-section mtxlp">
+          <div class="wrapper w960p flex-container flex-container-v">
+            <div class="separator w10"></div>
+            <h1 class="xbiggest flex-item-center txtcenter mtxl">About</h1>
+            <p class="flex-item-center h3-like txtcenter mts">Although I enjoy infrastructure and support, I am a fond
+              of Coding in my free time, in that matter I do use Python, JS and PHP (why not?).</p>
+            <div class="grid has-gutter-xl mtxl">
+              <div class="txtcenter">
+                <div>
+                  <strong class="h3-like">1</strong>
+                </div>
+                <div class="big">I can create Linux Servers (CentOS, Ubuntu, Debian, RHEL) and Windows Servers (2008,
+                  2012, 2016)</div>
+              </div>
+              <div class="txtcenter">
+                <div class="mtm is-hidden tiny-visible"></div>
+                <div>
+                  <strong class="h3-like">2</strong>
+                </div>
+                <div class="big">Then, I can make those Servers do something, like, they can evolve and become DNS
+                  Servers, DHCP servers, File Servers, Lan Routers, Web Servers, etc</div>
+              </div>
+              <div class="txtcenter">
+                <div class="mtm is-hidden tiny-visible"></div>
+                <div>
+                  <strong class="h3-like">3</strong>
+                </div>
+                <div class="big">I can make the servers above be contained in some sort of virtualization magic, they
+                  call that kind of magic in our world as VMWare. If you don't like it, how about all those servers be
+                  inside the Cloud? Yep, I can do that either. By the way, using AWS Amazon.</div>
+              </div>
+              <div class="txtcenter">
+                <div class="mtm is-hidden tiny-visible"></div>
+                <div>
+                  <strong class="h3-like">4</strong>
+                </div>
+                <div class="big">Nevertheless, I'm able to create local networks using Cisco Routers and Switches.
+                  Inside those Lans will be VLAN's, QOS'ses and everything necessary to make it work flawlessly.</div>
+              </div>
+              <div class="txtcenter">
+                <div class="mtm is-hidden tiny-visible"></div>
+                <div>
+                  <strong class="h3-like">5</strong>
+                </div>
+                <div class="big">Ever heard about Docker, Swarm, Kubernetes and CI/CD? Yep, I know that too.</div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- 
+            FEATURES SECTION 
+            
+            
+            
+            -->
+        <section class="features-section mtxl">
+          <div class="wrapper w960p flex-container flex-container-v">
+            <div class="separator w10"></div>
+            <h1 class="xbiggest flex-item-center txtcenter mtxl">Things that I did!</h1>
+            <p class="flex-item-center h3-like txtcenter mts"> The best answer for everything is the answer that
+              accomplishes the problem with the most cost-effective tool. That's why I use OpenSource technologies in
+              everything, and by that I mean: Zabbix for monitoring assets, GLPI for automate help-desk, Humhub to
+              create social networks private or not, Bacula to automate Backups and so on.</p>
+            <div class="features-container mtxl">
+              <div class="grid-2 has-gutter">
+                <div class="Media mbl">
+                  <svg class="Media-figure" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 490 490" width="50px"
+                    height="50px" xml:space="preserve">
+                    <g>
+                      <path
+                        d="M432.05,373.8c-14.8,0-28.3,5.4-38.4,14.8l-74.1-78.1c15.5-17.5,24.8-40.4,24.8-66c0-54.7-44.7-99.4-99.4-99.4 c-5,0-10.5,0.4-15.5,1.2c0,0,18.2-68.3,18.2-68.7c20.2-1.6,35.7-18.2,35.7-38.8c0-21.4-17.5-38.8-38.8-38.8s-38.1,17.9-38.1,39.2 c0,15.5,9.3,28.7,22.1,34.9v0.4l-21.3,78.4c-13.2,5.5-25,13.7-34.6,23.7l-72.6-78c10.1-10.5,16.3-24.5,16.3-40.4 c0-31.8-26-57.9-57.9-57.9s-57.9,26-57.9,57.9c0,31.8,26,57.9,57.9,57.9c8.8,0,17.7-2.3,25-5.7l77.1,82.6 c-9.3,15.1-14.7,33-14.7,52.4c0,22.4,7.7,43.3,20,59.9c0,0-53,53.4-53.4,53.4c-11.6-7.8-25.2-12.4-40.4-12.4 c-39.6,0.4-71.4,32.2-71.4,71.8s31.8,71.4,71.4,71.4s71.4-31.8,71.4-71.4c0-17.5-6.2-33.4-16.7-45.8l52.4-52.4 c17.5,15.5,40.4,24.8,65.6,24.8c22.5,0,43.1-7.4,59.7-20.1c0,0,75.8,79.6,76.2,79.9c-4.7,8.2-7,17.5-7,27.6 c0,31.8,26,57.9,57.9,57.9s57.9-26,57.9-57.9S463.85,373.8,432.05,373.8z"
+                        fill="#555" />
+                    </g>
+                  </svg>
+                  <div class="Media-body big prm"><strong>Invoice System.</strong> Created from scratch an invoice
+                    system using mainly PHP, JS, jQuery, Ajax, MariaDB.</div>
+                </div>
+                <div class="Media mbl">
+                  <svg class="Media-figure" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 490 490" width="50px"
+                    height="50px" xml:space="preserve">
+                    <g>
+                      <path
+                        d="M432.05,373.8c-14.8,0-28.3,5.4-38.4,14.8l-74.1-78.1c15.5-17.5,24.8-40.4,24.8-66c0-54.7-44.7-99.4-99.4-99.4 c-5,0-10.5,0.4-15.5,1.2c0,0,18.2-68.3,18.2-68.7c20.2-1.6,35.7-18.2,35.7-38.8c0-21.4-17.5-38.8-38.8-38.8s-38.1,17.9-38.1,39.2 c0,15.5,9.3,28.7,22.1,34.9v0.4l-21.3,78.4c-13.2,5.5-25,13.7-34.6,23.7l-72.6-78c10.1-10.5,16.3-24.5,16.3-40.4 c0-31.8-26-57.9-57.9-57.9s-57.9,26-57.9,57.9c0,31.8,26,57.9,57.9,57.9c8.8,0,17.7-2.3,25-5.7l77.1,82.6 c-9.3,15.1-14.7,33-14.7,52.4c0,22.4,7.7,43.3,20,59.9c0,0-53,53.4-53.4,53.4c-11.6-7.8-25.2-12.4-40.4-12.4 c-39.6,0.4-71.4,32.2-71.4,71.8s31.8,71.4,71.4,71.4s71.4-31.8,71.4-71.4c0-17.5-6.2-33.4-16.7-45.8l52.4-52.4 c17.5,15.5,40.4,24.8,65.6,24.8c22.5,0,43.1-7.4,59.7-20.1c0,0,75.8,79.6,76.2,79.9c-4.7,8.2-7,17.5-7,27.6 c0,31.8,26,57.9,57.9,57.9s57.9-26,57.9-57.9S463.85,373.8,432.05,373.8z"
+                        fill="#555" />
+                    </g>
+                  </svg>
+                  <div class="Media-body big prm"><strong>IT management.</strong> Created an entire ecosystem in HSDS to
+                    support IT in all possible scopes (GLPI, HumHub, Zabbix, FreeNAS).</div>
+                </div>
+              </div>
+              <div class="grid-2 has-gutter">
+                <div class="Media mbl">
+                  <svg class="Media-figure" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 490 490" width="50px"
+                    height="50px" xml:space="preserve">
+                    <g>
+                      <path
+                        d="M432.05,373.8c-14.8,0-28.3,5.4-38.4,14.8l-74.1-78.1c15.5-17.5,24.8-40.4,24.8-66c0-54.7-44.7-99.4-99.4-99.4 c-5,0-10.5,0.4-15.5,1.2c0,0,18.2-68.3,18.2-68.7c20.2-1.6,35.7-18.2,35.7-38.8c0-21.4-17.5-38.8-38.8-38.8s-38.1,17.9-38.1,39.2 c0,15.5,9.3,28.7,22.1,34.9v0.4l-21.3,78.4c-13.2,5.5-25,13.7-34.6,23.7l-72.6-78c10.1-10.5,16.3-24.5,16.3-40.4 c0-31.8-26-57.9-57.9-57.9s-57.9,26-57.9,57.9c0,31.8,26,57.9,57.9,57.9c8.8,0,17.7-2.3,25-5.7l77.1,82.6 c-9.3,15.1-14.7,33-14.7,52.4c0,22.4,7.7,43.3,20,59.9c0,0-53,53.4-53.4,53.4c-11.6-7.8-25.2-12.4-40.4-12.4 c-39.6,0.4-71.4,32.2-71.4,71.8s31.8,71.4,71.4,71.4s71.4-31.8,71.4-71.4c0-17.5-6.2-33.4-16.7-45.8l52.4-52.4 c17.5,15.5,40.4,24.8,65.6,24.8c22.5,0,43.1-7.4,59.7-20.1c0,0,75.8,79.6,76.2,79.9c-4.7,8.2-7,17.5-7,27.6 c0,31.8,26,57.9,57.9,57.9s57.9-26,57.9-57.9S463.85,373.8,432.05,373.8z"
+                        fill="#555" />
+                    </g>
+                  </svg>
+                  <div class="Media-body big prm"><strong>CI/CD.</strong> Automated tasks using Ansible, Terraform and
+                    continuous deployment using GitLab and Docker Swarm.</div>
+                </div>
+                <div class="Media mbl">
+                  <svg class="Media-figure" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 490 490" width="50px"
+                    height="50px" xml:space="preserve">
+                    <g>
+                      <path
+                        d="M432.05,373.8c-14.8,0-28.3,5.4-38.4,14.8l-74.1-78.1c15.5-17.5,24.8-40.4,24.8-66c0-54.7-44.7-99.4-99.4-99.4 c-5,0-10.5,0.4-15.5,1.2c0,0,18.2-68.3,18.2-68.7c20.2-1.6,35.7-18.2,35.7-38.8c0-21.4-17.5-38.8-38.8-38.8s-38.1,17.9-38.1,39.2 c0,15.5,9.3,28.7,22.1,34.9v0.4l-21.3,78.4c-13.2,5.5-25,13.7-34.6,23.7l-72.6-78c10.1-10.5,16.3-24.5,16.3-40.4 c0-31.8-26-57.9-57.9-57.9s-57.9,26-57.9,57.9c0,31.8,26,57.9,57.9,57.9c8.8,0,17.7-2.3,25-5.7l77.1,82.6 c-9.3,15.1-14.7,33-14.7,52.4c0,22.4,7.7,43.3,20,59.9c0,0-53,53.4-53.4,53.4c-11.6-7.8-25.2-12.4-40.4-12.4 c-39.6,0.4-71.4,32.2-71.4,71.8s31.8,71.4,71.4,71.4s71.4-31.8,71.4-71.4c0-17.5-6.2-33.4-16.7-45.8l52.4-52.4 c17.5,15.5,40.4,24.8,65.6,24.8c22.5,0,43.1-7.4,59.7-20.1c0,0,75.8,79.6,76.2,79.9c-4.7,8.2-7,17.5-7,27.6 c0,31.8,26,57.9,57.9,57.9s57.9-26,57.9-57.9S463.85,373.8,432.05,373.8z"
+                        fill="#555" />
+                    </g>
+                  </svg>
+                  <div class="Media-body big prm"><strong>POC's.</strong> More POC's than I'm proud of, Which one to
+                    use? Kubernetes or Swarm? GitLab or Jenkins? Azure or AWS?</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+      </div>
     </div>
+    </section>
+    <!-- 
+            Email
+            
+            
+            
+            -->
+    <section class="contact-section mtxl">
+      <div class="wrapper w960p flex-container flex-container-v">
+        <div class="separator w10"></div>
+        <h1 class="xbiggest flex-item-center txtcenter mtxl">Let's keep in touch</h1>
+        <p class="flex-item-center h3-like txtcenter mts">Why not?</p>
+        <div class="contact-container mtxl">
+          <div class="first-page-email">
+            <div class="first-page-email-content">
+              <div class="first-page-email__input-container">
 
+                <form action="https://formspree.io/meqrqepq" method="POST" class="load-email__form" id="contact-form">
+                  <div class="load-email__form-item">
+                    <input class="load-email-enter" placeholder="Enter your email" type="email" name="email">
+                    <input class="load-email-enter-fake" placeholder="Your message" type="text" name="message">
+                  </div>
+                  <div class="load-email__form-item txtcenter">
+                    <button type="submit" class="load-email-button button-primary">Contact me</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 
+            FOOTER SECTION 
+            
+            
+            
+            -->
+    <footer class="footer-section mtxl">
+      <div class="wrapper w960p flex-container flex-container-v txtcenter">
+        <div class="h5-like ptl pbl">
+          <span class="footer-nav-item" data-target="hero-section">Home</span> •
+          <span class="footer-nav-item" data-target="explanation-section">Trust me, I'm real</span> •
+          <span class="footer-nav-item" data-target="book-section">Writer enthusiast</span> •
+          <span class="footer-nav-item" data-target="howitworks-section">About</span> •
+          <span class="footer-nav-item" data-target="features-section">Thing that I did!</span> •
+          <span class="footer-nav-item" data-target="contact-section">Contact</span>
+        </div>
+        <div class="h5-like pbs">
+          © Christian Chostak • 2019 • <a href="mailto:c.chostak@gmail.com">c.chostak@gmail.com</a>
+        </div>
+        <div class="h5-like pbl">
+          Theme by <a href="https://github.com/bdavidxyz/simplest-startup-starter">bdavidxyz</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+  </div>
+  </div>
+  <script type="text/javascript" src="custom-var.js"></script>
+  <script type="text/javascript" src="vendor.min.js"></script>
+  <script type="text/javascript" src="custom.js"></script>
 </body>
-
-<footer class="container container-fluid well" id="bottompage">
-
-  <h3>
-  Coded in Notepad++, with at least 3 bottles of coffe. Hosted in AWS EC2, DNS resolved by Route53. Previewed with XAMPP. The song while I wrote this was Final Light - Angra. And although I know it's quite simple, I enjoy it. Makes me realize that you don't need fancy stuff to solve a problem - and LOOK at that minimalist design =O. 
-  
-  I wrote this page as part of the freeCodeCamp initiative.
-  </h3>
-  
-</footer>
 
 </html>
